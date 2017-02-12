@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">RobotykaSterowanieKomp</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="menuNFC">NFC</string>
+    <string name="menuNFCDescription">Odczytaj TAG NFC</string>
+    <string name="menuBluetooth">Bluetooth</string>
+    <string name="menuBluetoothDescription">Sparuj z innym urzadzeniem, wyślij tekst, odbierz tekst</string>
+    <string name="menuInternet">Sieć</string>
+    <string name="menuInternetDescription">Wyślij plik przez internet</string>
+    <string name="menuWriteToFile">Zapisz Do Pliku</string>
+    <string name="menuWriteToFilehDescription">Zapisz tekst do pliku tekstowego lub binarnego</string>
+    <string name="menuReadFromFile">Odczyt Z Pliku</string>
+    <string name="menuReadFromFileDescription">Odczytaj tekts z pliku tekstowego lub binarnego</string>
+    <string name="menuGraphicFile">Plik Graficzny</string>
+    <string name="menuGraphicFileDescription">Wyświetl plik graficzny</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">Robotyka</string>
+    <string name="backdrop_subtitle">Kalman Tokes</string>
 </resources>
