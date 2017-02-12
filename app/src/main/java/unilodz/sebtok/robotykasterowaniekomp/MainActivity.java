@@ -17,7 +17,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-
 import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
@@ -27,6 +26,8 @@ import unilodz.sebtok.robotykasterowaniekomp.BluetoothModule.BluetoothActivity;
 import unilodz.sebtok.robotykasterowaniekomp.MenuItems.Item;
 import unilodz.sebtok.robotykasterowaniekomp.MenuItems.ItemAdapter;
 import unilodz.sebtok.robotykasterowaniekomp.MenuItems.RecyclerItemOnClickListener;
+import unilodz.sebtok.robotykasterowaniekomp.ReadAndWriteToFileModule.WriteToTxtFile;
+import unilodz.sebtok.robotykasterowaniekomp.ShowImageModule.ShowGalleryImage;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -80,7 +81,12 @@ public class MainActivity extends AppCompatActivity {
                                Toast.makeText(context, "WifiClicked", Toast.LENGTH_SHORT).show();
                                break;
                            case 3:
-                               Toast.makeText(context, "GalleryClicked", Toast.LENGTH_SHORT).show();
+                               Intent intentGallery = new Intent(MainActivity.this, ShowGalleryImage.class);
+                               startActivity(intentGallery);
+                               break;
+                           case 4:
+                               Intent intentWriteToFile = new Intent(MainActivity.this, WriteToTxtFile.class);
+                               startActivity(intentWriteToFile);
                                break;
                        }
                     }

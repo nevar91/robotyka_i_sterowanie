@@ -18,7 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".BluetoothModule.BluetoothActivity"></activity>
+        <activity android:name=".BluetoothModule.BluetoothActivity" />
+        <activity android:name=".ShowImageModule.ShowGalleryImage" />
+        <activity android:name=".ReadAndWriteToFileModule.WriteToTxtFile"></activity>
     </application>
 
 </manifest>
